@@ -4,7 +4,8 @@
 
 @font-face {
   font-family: "Modern Negra";
-  src: url("./assets/fonts/Modern Negra Demo.ttf") format("truetype");
+  src: url("./assets/fonts/Modern-Negra-Demo.ttf") format("truetype");
+  font-display: swap;
 }
 
 @theme {
@@ -21,7 +22,7 @@ body {
   background-color: black;
   color: white;
   scroll-behavior: smooth;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 @utility flex-center {
